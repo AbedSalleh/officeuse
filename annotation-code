@@ -1,41 +1,3 @@
-def anything_else():
-    anything = input("anything else?\n")
-
-def trigger_1():
-    a = input("what violation?\n")
-    if a == "dff":
-        onedff = input("link your screenshot here: \n")
-    elif a == "web":
-        oneweb = input("link your screenshot here: \n")
-    elif a == "atd":
-        oneatd = input("link your screenshot here: \n")
-    elif a == "gmb":
-        onegmb = input("link your screenshot here: \n")
-    elif a == "sex":
-        onesex = input("link your screenshot here: \n")
-    elif a == "vio":
-        onevio = input("link your screenshot here: \n")
-    elif a == "iarc":
-        oneiarc = input("link your screenshot here: \n")
-    elif a == "geo":
-        onegeo = input("link your screenshot here: \n")
-    elif a == "inc":
-        oneinc = input("link your screenshot here: \n")
-    elif a == "na":
-        onena = "no violation in first cluster."
-    
-
-
-def trigger_2():
-    b = input("What violation is in website cluster?\n")
-    if b == "pp":
-        twopp = input("link here man..\n")
-    elif b == "web":
-        twoweb = input("link bro..\n")
-    elif b == "na":
-        twona = "no violation in second cluster."
-
-
 def trigger_3():
     c = input("What violation is in APK cluster?\n")
     if c == "dff":
@@ -91,11 +53,61 @@ def trigger_3():
     elif c == "content":
         treecontent = input("link your screenshot here: \n")
     elif c == "na":
-        treena = input("link your screenshot here: \n")
+        treena = "no violation in third cluster."
+
+
+def trigger_2():
+    while True:
+        b = input("What violation is in website cluster?\n")
+        if b == "pp":
+            twopp = input("link here man..\n")
+            break
+        elif b == "web":
+            twoweb = input("link bro..\n")
+        elif b == "na":
+            twona = "no violation in second cluster."
+            break
+
+
+def trigger_1():
+    while True:
+        a = input("what violation is in primary cluster?\n")
+        if a == "dff":
+            onedff = input("link your screenshot here: \n")
+            break
+        elif a == "web":
+            oneweb = input("link your screenshot here: \n")
+        elif a == "atd":
+            oneatd = input("link your screenshot here: \n")
+        elif a == "gmb":
+            onegmb = input("link your screenshot here: \n")
+        elif a == "sex":
+            onesex = input("link your screenshot here: \n")
+        elif a == "vio":
+            onevio = input("link your screenshot here: \n")
+        elif a == "iarc":
+            oneiarc = input("link your screenshot here: \n")
+        elif a == "geo":
+            onegeo = input("link your screenshot here: \n")
+        elif a == "inc":
+            oneinc = input("link your screenshot here: \n")
+        elif a == "na":
+            onena = "no violation in first cluster."
+            break
+        anything = input("anything else?\n")
+        if anything == "Y":
+            continue
+        else:
+            break   
+    trigger_2()
+    print(a)
+
+
+
 
 
 def trigger_4():
     running 
     
-trigger_3()
-
+    
+trigger_1()
