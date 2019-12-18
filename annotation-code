@@ -2,6 +2,23 @@ f = open("new_annotation.txt", "w")
 f.write("Annotation:\n")
 f.close()
 
+def trigger_5():
+    print("okay! lastly:\n")
+    a = input("PP valid link?\n")
+    f = open("new_annotation.txt", "a")
+    f.write("\nPP Valid: " + a + "\n")
+    f.close()
+    b = input("Any youtube videos?(y/n)\n")
+    if b == "y":
+        f = open("new_annotation.txt", "a")
+        f.write("#YTTOS")
+        f.close()
+    else:
+        True
+
+def trigger_4():
+    trigger_5() 
+
 def trigger_3():
     while True:
         a = input("What violation is in APK cluster?\n")
@@ -25,158 +42,147 @@ def trigger_3():
             f.write(x + y + "\n")
             f.close()
         elif a == "banner":
-            x = "Ad Walls: "
+            x = "Banner/Video Ads: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "disg":
-            x = "Ad Walls: "
+            x = "Disguised Ads: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "proh":
-            x = "Ad Walls: "
+            x = "Prohibited Ad Content: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "adcre":
-            x = "Ad Walls: "
+            x = "Ad Creative: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "age5":
-            x = "Ad Walls: "
+            x = "Ads: 0-5 Age Bucket: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "age12":
-            x = "Ad Walls: "
+            x = "Ads: 6-8, 9-12, All Ages: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "online":
-            x = "Ad Walls: "
+            x = "Online Interaction: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "person":
-            x = "Ad Walls: "
+            x = "Personal Information: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "ar":
-            x = "Ad Walls: "
+            x = "Augmented Reality: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "web":
-            x = "Ad Walls: "
+            x = "Weblinks In App: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "api":
-            x = "Ad Walls: "
+            x = "Restricted Apis: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "atd":
-            x = "Ad Walls: "
+            x = "Alcohol, Tobacco, Drugs: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "gmb":
-            x = "Ad Walls: "
+            x = "Gambling: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "sex":
-            x = "Ad Walls: "
+            x = "Sexual Content: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "vio":
-            x = "Ad Walls: "
+            x = "Violence: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "iarc":
-            x = "Ad Walls: "
+            x = "IARC Incorrect Rating: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "geo":
-            x = "Ad Walls: "
+            x = "Geo-location Shared: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "inc":
-            x = "Ad Walls: "
+            x = "Incomplete metadata: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "install":
-            x = "Ad Walls: "
+            x = "App Installs: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "runs":
-            x = "Ad Walls: "
+            x = "App Runs Reliably: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "login":
-            x = "Ad Walls: "
+            x = "Test Login Needed: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "screen":
-            x = "Ad Walls: "
+            x = "Age Screen: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
         elif a == "content":
-            x = "Ad Walls: "
+            x = "Content Requirements: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
-        elif a == "none":
-            x = "no violation in third cluster."
-            f = open("new_annotation.txt", "a")
-            f.write(x + "\n")
-            f.close()
+        elif a == "": #next
             break
-        elif a == "-": #next
-            x = " "
-            f = open("new_annotation.txt", "a")
-            f.write(x + "\n")
-            f.close()
-            break
-
-
-
+    trigger_4()
+    
 def trigger_2():
     while True:
         a = input("What violation is in website cluster?\n")
@@ -193,17 +199,7 @@ def trigger_2():
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
-        elif a == "-": #next
-            x = " "
-            f = open("new_annotation.txt", "a")
-            f.write(x + "\n")
-            f.close()
-            break
-        elif a == "none":
-            x = "no violation in second cluster."
-            f = open("new_annotation.txt", "a")
-            f.write(x + "\n")
-            f.close()
+        elif a == "": #next
             break
     trigger_3()
 
@@ -265,11 +261,7 @@ def trigger_1():
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
-        elif a == "-": #next
-            x = " "
-            f = open("new_annotation.txt", "a")
-            f.write(x + "\n")
-            f.close()
+        elif a == "": #next
             break
         elif a == "none":
             x = "no violation in first cluster."
@@ -283,8 +275,7 @@ def trigger_1():
 
 
 
-def trigger_4():
-    running 
     
     
 trigger_1()
+print("Yep were done! Check result at the next tab!")
