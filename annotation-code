@@ -3,110 +3,280 @@ f.write("Annotation:\n")
 f.close()
 
 def trigger_3():
-    c = input("What violation is in APK cluster?\n")
-    if c == "dff":
-        treedff = input("link your screenshot here: \n")
-    elif c == "adwall":
-        treeadwall = input("link your screenshot here: \n")
-    elif c == "inter":
-        treeinter = input("link your screenshot here: \n")
-    elif c == "banner":
-        treebanner = input("link your screenshot here: \n")
-    elif c == "disg":
-        treedisg = input("link your screenshot here: \n")
-    elif c == "proh":
-        treeproh = input("link your screenshot here: \n")
-    elif c == "adcre":
-        treeadcre = input("link your screenshot here: \n")
-    elif c == "age5":
-        treeage5 = input("link your screenshot here: \n")
-    elif c == "age12":
-        treeage12 = input("link your screenshot here: \n")
-    elif c == "online":
-        treeonline = input("link your screenshot here: \n")
-    elif c == "person":
-        treeperson = input("link your screenshot here: \n")
-    elif c == "ar":
-        treear = input("link your screenshot here: \n")
-    elif c == "web":
-        treeweb = input("link your screenshot here: \n")    
-    elif c == "api":
-        treeapi = input("link your screenshot here: \n")
-    elif c == "atd":
-        treeatd = input("link your screenshot here: \n")
-    elif c == "gmb":
-        treegmb = input("link your screenshot here: \n")   
-    elif c == "sex":
-        treesex = input("link your screenshot here: \n")
-    elif c == "vio":
-        treevio = input("link your screenshot here: \n")
-    elif c == "iarc":
-        treeiarc = input("link your screenshot here: \n")
-    elif c == "geo":
-        treegeo = input("link your screenshot here: \n")
-    elif c == "inc":
-        treeinc = input("link your screenshot here: \n")
-    elif c == "install":
-        treeinstall = input("link your screenshot here: \n")
-    elif c == "runs":
-        treeruns = input("link your screenshot here: \n")
-    elif c == "login":
-        treelogin = input("link your screenshot here: \n")
-    elif c == "screen":
-        treescreen = input("link your screenshot here: \n")
-    elif c == "content":
-        treecontent = input("link your screenshot here: \n")
-    elif c == "na":
-        treena = "no violation in third cluster."
+    while True:
+        a = input("What violation is in APK cluster?\n")
+        if a == "dff":
+            x = "DFF Eligibility: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\nPP: N/A" )
+            f.close()
+            break
+        elif a == "adwall":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "inter":
+            x = "Interstitial Ads: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "banner":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "disg":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "proh":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "adcre":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "age5":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "age12":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "online":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "person":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "ar":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "web":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "api":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "atd":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "gmb":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "sex":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "vio":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "iarc":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "geo":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "inc":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "install":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "runs":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "login":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "screen":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "content":
+            x = "Ad Walls: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "none":
+            x = "no violation in third cluster."
+            f = open("new_annotation.txt", "a")
+            f.write(x + "\n")
+            f.close()
+            break
+        elif a == "-": #next
+            x = " "
+            f = open("new_annotation.txt", "a")
+            f.write(x + "\n")
+            f.close()
+            break
+
 
 
 def trigger_2():
     while True:
-        b = input("What violation is in website cluster?\n")
-        if b == "pp":
-            twopp = input("link here man..\n")
+        a = input("What violation is in website cluster?\n")
+        if a == "pp":
+            x = "Invalid PP: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
             break
-        elif b == "web":
-            twoweb = input("link bro..\n")
-        elif b == "na":
-            twona = "no violation in second cluster."
+        elif a == "web":
+            x = "Weblink in metadata: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "-": #next
+            x = " "
+            f = open("new_annotation.txt", "a")
+            f.write(x + "\n")
+            f.close()
             break
-
+        elif a == "none":
+            x = "no violation in second cluster."
+            f = open("new_annotation.txt", "a")
+            f.write(x + "\n")
+            f.close()
+            break
+    trigger_3()
 
 def trigger_1():
     while True:
         a = input("what violation is in primary cluster?\n")
         if a == "dff":
-            x = input("link your screenshot here: \n")
+            x = "DFF Eligibility: "
+            y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
-            f.write("DFF Eligibility: " + x + "\nPP: N/A" )
+            f.write(x + y + "\nPP: N/A" )
             f.close()
-
             break
         elif a == "web":
-            oneweb = input("link your screenshot here: \n")
+            x = "Weblink in metadata: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
         elif a == "atd":
-            oneatd = input("link your screenshot here: \n")
+            x = "Alcohol, Tobacco, Drugs: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
         elif a == "gmb":
-            onegmb = input("link your screenshot here: \n")
+            x = "Gambling: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
         elif a == "sex":
-            onesex = input("link your screenshot here: \n")
+            x = "Sexual Content: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
         elif a == "vio":
-            onevio = input("link your screenshot here: \n")
+            x = "Violence: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
         elif a == "iarc":
-            oneiarc = input("link your screenshot here: \n")
+            x = "Incorrect IARC Rating: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
         elif a == "geo":
-            onegeo = input("link your screenshot here: \n")
+            x = "Geo-location Shared: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
         elif a == "inc":
-            oneinc = input("link your screenshot here: \n")
-        elif a == "na":
-            onena = "no violation in first cluster."
+            x = "Incomplete metadata: "
+            y = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write(x + y + "\n")
+            f.close()
+        elif a == "-": #next
+            x = " "
+            f = open("new_annotation.txt", "a")
+            f.write(x + "\n")
+            f.close()
             break
-        anything = input("anything else?\n")
-        if anything == "Y":
-            continue
-        else:
-            break   
+        elif a == "none":
+            x = "no violation in first cluster."
+            f = open("new_annotation.txt", "a")
+            f.write(x + "\n")
+            f.close()
+            break
     trigger_2()
 
 
