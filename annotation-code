@@ -283,4 +283,4 @@ def trigger_1(): #primary cluster
     
     
 trigger_1()
-print("Yep were done! Check result at the next tab!")
+print("Yep were done! Check result at the next tab!\nP.s.: make sure to check ex-machina and polaroid review if applicable!")
