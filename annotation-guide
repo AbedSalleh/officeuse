@@ -1,0 +1,46 @@
+"""
+violation list:
+1st cluster:
+1 - dff 
+2 - web
+3 - atd 
+4 - gmb
+5 - sex
+6 - vio 
+7 - iarc
+8 - geo 
+9 - inc 
+10 - na
+
+2nd cluster:
+1 - pp 
+2 - web 
+
+3rd cluster:
+1 - dff
+2 - adwall
+3 - inter 
+4 - banner
+5 - disg
+6 - proh
+7 - adcre
+8 - age5
+9 - age12
+10 - online
+11 - person
+12 - ar 
+13 - web
+14 - api
+15 - atd 
+16 - gmb
+17 - sex 
+18 - vio 
+19 - iarc
+20 - geo 
+21 - inc
+22 - install
+23 - runs
+24 - login  
+25 - screen 
+26 - content 
+"""
