@@ -12,7 +12,7 @@ def trigger_5():
     else:
         True
 
-def trigger_4():
+def trigger_4(): # should be APK cluster
     trigger_5() 
 
 def trigger_3():
@@ -140,6 +140,7 @@ def trigger_3():
             f.write(x + y + "\n")
             f.close()
         elif a == "inc":
+            print("Are you sure? check tv opted in okay")
             x = "Incomplete metadata: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
@@ -181,28 +182,28 @@ def trigger_3():
     
 def trigger_2(): #website cluster
 
-    a = input("is the PP valid?(y/n)")
+    a = input("is the PP valid?(y/n)\n")
     if a == "y":
-        y = input("valid PP screenshot please bro..")
+        y = input("valid PP screenshot please bro..\n")
         f = open("new_annotation.txt", "a")
         f.write("PP Valid: " + y + "\n")
         f.close()
     elif a == "n":
-        y = input("Invalid pp link and screenshot please bro..")
+        y = input("Invalid pp link and screenshot please bro..\n")
         f = open("new_annotation.txt", "a")
         f.write("PP Invalid: " + y + "\n")
         f.close()
 
 
     while True:
-        a = input("What violation is in website cluster?\n")
-        if a == "web":
+        a = input("Any weblinks in metadata violation?(y/n)\n")
+        if a == "y":
             x = "Weblink in metadata: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
             f.write(x + y + "\n")
             f.close()
-        elif a == "": #next
+        else: #next
             break
     trigger_3()
 
@@ -259,6 +260,7 @@ def trigger_1(): #primary cluster
             f.write(x + y + "\n")
             f.close()
         elif a == "inc":
+            print("Are you sure? check tv opted in okay.")
             x = "Incomplete metadata: "
             y = input("link your screenshot here: \n")
             f = open("new_annotation.txt", "a")
