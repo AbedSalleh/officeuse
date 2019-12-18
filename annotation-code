@@ -1,3 +1,7 @@
+f = open("new_annotation.txt", "w")
+f.write("Annotation:\n")
+f.close()
+
 def trigger_3():
     c = input("What violation is in APK cluster?\n")
     if c == "dff":
@@ -73,7 +77,11 @@ def trigger_1():
     while True:
         a = input("what violation is in primary cluster?\n")
         if a == "dff":
-            onedff = input("link your screenshot here: \n")
+            x = input("link your screenshot here: \n")
+            f = open("new_annotation.txt", "a")
+            f.write("DFF Eligibility: " + x + "\nPP: N/A" )
+            f.close()
+
             break
         elif a == "web":
             oneweb = input("link your screenshot here: \n")
@@ -100,7 +108,6 @@ def trigger_1():
         else:
             break   
     trigger_2()
-    print(a)
 
 
 
