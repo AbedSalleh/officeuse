@@ -1,0 +1,42 @@
+def trigger_1():
+    a = input("what violation?\n")
+    if a == "dff":
+        onedff = input("link your screenshot here: \n")
+    elif a == "web":
+        oneweb = input("link your screenshot here: \n")
+    elif a == "atd":
+        oneatd = input("link your screenshot here: \n")
+    elif a == "gmb":
+        onegmb = input("link your screenshot here: \n")
+    elif a == "sex":
+        onesex = input("link your screenshot here: \n")
+    elif a == "vio":
+        onevio = input("link your screenshot here: \n")
+    elif a == "iarc":
+        oneiarc = input("link your screenshot here: \n")
+    elif a == "geo":
+        onegeo = input("link your screenshot here: \n")
+    elif a == "inc":
+        oneinc = input("link your screenshot here: \n")
+    elif a == "na":
+        onena = "no violation in first cluster."
+    
+
+
+def trigger_2():
+    running
+    
+
+
+
+def trigger_3():
+    running
+    
+
+
+
+def trigger_4():
+    running
+    
+trigger_1()
+
