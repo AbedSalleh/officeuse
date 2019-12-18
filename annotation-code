@@ -1,3 +1,6 @@
+def anything_else():
+    anything = input("anything else?\n")
+
 def trigger_1():
     a = input("what violation?\n")
     if a == "dff":
@@ -24,19 +27,75 @@ def trigger_1():
 
 
 def trigger_2():
-    running
-    
-
+    b = input("What violation is in website cluster?\n")
+    if b == "pp":
+        twopp = input("link here man..\n")
+    elif b == "web":
+        twoweb = input("link bro..\n")
+    elif b == "na":
+        twona = "no violation in second cluster."
 
 
 def trigger_3():
-    running
-    
-
+    c = input("What violation is in APK cluster?\n")
+    if c == "dff":
+        treedff = input("link your screenshot here: \n")
+    elif c == "adwall":
+        treeadwall = input("link your screenshot here: \n")
+    elif c == "inter":
+        treeinter = input("link your screenshot here: \n")
+    elif c == "banner":
+        treebanner = input("link your screenshot here: \n")
+    elif c == "disg":
+        treedisg = input("link your screenshot here: \n")
+    elif c == "proh":
+        treeproh = input("link your screenshot here: \n")
+    elif c == "adcre":
+        treeadcre = input("link your screenshot here: \n")
+    elif c == "age5":
+        treeage5 = input("link your screenshot here: \n")
+    elif c == "age12":
+        treeage12 = input("link your screenshot here: \n")
+    elif c == "online":
+        treeonline = input("link your screenshot here: \n")
+    elif c == "person":
+        treeperson = input("link your screenshot here: \n")
+    elif c == "ar":
+        treear = input("link your screenshot here: \n")
+    elif c == "web":
+        treeweb = input("link your screenshot here: \n")    
+    elif c == "api":
+        treeapi = input("link your screenshot here: \n")
+    elif c == "atd":
+        treeatd = input("link your screenshot here: \n")
+    elif c == "gmb":
+        treegmb = input("link your screenshot here: \n")   
+    elif c == "sex":
+        treesex = input("link your screenshot here: \n")
+    elif c == "vio":
+        treevio = input("link your screenshot here: \n")
+    elif c == "iarc":
+        treeiarc = input("link your screenshot here: \n")
+    elif c == "geo":
+        treegeo = input("link your screenshot here: \n")
+    elif c == "inc":
+        treeinc = input("link your screenshot here: \n")
+    elif c == "install":
+        treeinstall = input("link your screenshot here: \n")
+    elif c == "runs":
+        treeruns = input("link your screenshot here: \n")
+    elif c == "login":
+        treelogin = input("link your screenshot here: \n")
+    elif c == "screen":
+        treescreen = input("link your screenshot here: \n")
+    elif c == "content":
+        treecontent = input("link your screenshot here: \n")
+    elif c == "na":
+        treena = input("link your screenshot here: \n")
 
 
 def trigger_4():
-    running
+    running 
     
-trigger_1()
+trigger_3()
 
